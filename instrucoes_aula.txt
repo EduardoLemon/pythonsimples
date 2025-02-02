@@ -1,0 +1,17 @@
+git config --global user.name Eduardo Torquato
+git config --global user.name eduardolemontot4@gmail.com
+
+sempre que for adicionar um arquivo do no Git vc precisa adicionar o arquivo usando o 
+
+git add <.arquivo>
+
+depois você precisa validar o arquivo
+
+git commit -m "entre aspas vc insere uma mensagem falando
+               o que você validou para ficar registrado
+               no log das suas operações"
+
+após isso, envi as alterações par o github usando
+
+git push -u origin mai (origin é o nome que criamos
+               para chamar as operações)
